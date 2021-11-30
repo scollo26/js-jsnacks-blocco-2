@@ -28,6 +28,7 @@ for (let i = 1; i < array.length; i +=2) {
 
 
 
+
 function random(number) {
     let random = parseInt(prompt('inserisci un numero'));
     
