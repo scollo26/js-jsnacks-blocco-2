@@ -3,16 +3,20 @@
 
 let array =[];
 
-let numero = parseInt(prompt('inserisci un numero'));
+let number= 0;
 
-for (let i = 0; i < 20; i++) {
-    array.push(numero);
-    console.log(array);
+for (let i = 0; i < 5; i++) {
+
+    let randomNumber = random(number);
+    array.push(random(number)); 
+    // let random = parseInt(prompt('inserisci un numero'));
+    // array.push(random); 
     
 }
+console.log(array);
 
 
-let somma = 0;
+let somma = parseInt(0);
 
 for (let i = 1; i < array.length; i +=2) {
 
@@ -20,5 +24,13 @@ for (let i = 1; i < array.length; i +=2) {
     somma = somma + array[i];
     console.log(somma);
     
+}
+
+
+
+function random(number) {
+    let random = parseInt(prompt('inserisci un numero'));
+    
+    return random
 }
 
