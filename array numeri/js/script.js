@@ -15,19 +15,14 @@ for (let i = 0; i < 5; i++) {
 }
 console.log(array);
 
-
 let somma = parseInt(0);
 
 for (let i = 1; i < array.length; i +=2) {
 
     console.log(array[i]);
     somma = somma + array[i];
-    console.log(somma);
-    
+    console.log(somma); 
 }
-
-
-
 
 function random(number) {
     let random = parseInt(prompt('inserisci un numero'));

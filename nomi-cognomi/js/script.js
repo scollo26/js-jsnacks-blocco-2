@@ -15,6 +15,7 @@ function random(number) {
 // dichiarazione due variabili maxe min
 const min = 0;
 const max = 3;
+
 for (let i = 0; i < 20; i++){
     // invocazione funzione
     let randomNumber = random(min, max);
